@@ -1,28 +1,18 @@
 {
-    "id": "ba5b0209-d889-406e-9d9f-245da647c454",
+    "id": "15ceda05-a32f-474b-ac1f-307038a280aa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objectBattleManager",
+    "name": "objectUiBattleCmd",
     "eventList": [
         {
-            "id": "9c122fe3-3a24-47a3-b914-a61785d24c2c",
+            "id": "6a90f846-37c7-414e-89bc-f254889776b3",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
-            "m_owner": "ba5b0209-d889-406e-9d9f-245da647c454"
-        },
-        {
-            "id": "5dafb38f-c223-4620-a46c-0656211b2d71",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ba5b0209-d889-406e-9d9f-245da647c454"
+            "m_owner": "15ceda05-a32f-474b-ac1f-307038a280aa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "e489befe-e584-4456-a1b3-eb80f6ef9682",
+            "id": "4ada3194-a7c0-439d-bd16-7ad0bbf03016",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +42,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "mBattleCommand",
-            "varType": 5
+            "value": "128",
+            "varName": "drawingHeight",
+            "varType": 0
+        },
+        {
+            "id": "5f2be57a-025c-4297-a52c-c5dae62dc789",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "window_get_height()-drawingHeight",
+            "varName": "drawingPositionY",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "923cf1df-a1e5-47ff-a262-bc21d3118914",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

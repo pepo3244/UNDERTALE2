@@ -9,7 +9,7 @@
     "bbox_bottom": 92,
     "bbox_left": 4,
     "bbox_right": 60,
-    "bbox_top": 4,
+    "bbox_top": 46,
     "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
