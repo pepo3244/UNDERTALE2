@@ -13,6 +13,26 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "15ceda05-a32f-474b-ac1f-307038a280aa"
+        },
+        {
+            "id": "01c7da05-c8b1-457a-96a0-86fc1287cac7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 37,
+            "eventtype": 9,
+            "m_owner": "15ceda05-a32f-474b-ac1f-307038a280aa"
+        },
+        {
+            "id": "f35922d9-8d78-4482-8601-a63cc4f3fa18",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 9,
+            "m_owner": "15ceda05-a32f-474b-ac1f-307038a280aa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +63,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "128",
-            "varName": "drawingHeight",
+            "varName": "mDrawingHeight",
             "varType": 0
         },
         {
@@ -56,9 +76,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "window_get_height()-drawingHeight",
-            "varName": "drawingPositionY",
+            "value": "window_get_height()-mDrawingHeight",
+            "varName": "mDrawingPositionY",
             "varType": 0
+        },
+        {
+            "id": "dc2ebd1f-5165-446c-985d-c4cb9dbc2a71",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mCursorIndex",
+            "varType": 1
         }
     ],
     "solid": false,

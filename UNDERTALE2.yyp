@@ -273,6 +273,14 @@
             }
         },
         {
+            "Key": "99b99e61-a8ef-415f-b61c-fa94006ec63e",
+            "Value": {
+                "id": "105dfe64-09ba-4bef-b84a-025cba07f4d1",
+                "resourcePath": "objects\\objectUiBattleStatus\\objectUiBattleStatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d234f2d-25b6-4c1a-a355-5525a038c3cb",
             "Value": {
                 "id": "8ce1c28e-1d88-4fce-b105-997e5f337e19",
@@ -365,6 +373,14 @@
             "Value": {
                 "id": "27ded155-061b-4cf5-9389-115558c11ea0",
                 "resourcePath": "sprites\\spriteTileSets00\\spriteTileSets00.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c2536f69-7f99-4813-9334-59541da756f1",
+            "Value": {
+                "id": "b21dcfaf-755e-45ca-91bf-e83a5e073de6",
+                "resourcePath": "sprites\\spriteUiBattleFocusedCommands\\spriteUiBattleFocusedCommands.yy",
                 "resourceType": "GMSprite"
             }
         },

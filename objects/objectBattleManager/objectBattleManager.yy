@@ -55,6 +55,20 @@
             "value": "0",
             "varName": "mBattleCommand",
             "varType": 5
+        },
+        {
+            "id": "1f9637dc-ced9-4fb3-a080-282fdcfbbcf8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mBattleStatus",
+            "varType": 5
         }
     ],
     "solid": false,
